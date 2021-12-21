@@ -13,6 +13,9 @@
 		110CC8992771BE9A00AE5201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CC8972771BE9A00AE5201 /* Main.storyboard */; };
 		110CC89B2771BEAB00AE5201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110CC89A2771BEAB00AE5201 /* Assets.xcassets */; };
 		110CC89E2771BEAB00AE5201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CC89C2771BEAB00AE5201 /* LaunchScreen.storyboard */; };
+		110CC8A62771CC4300AE5201 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110CC8A52771CC4300AE5201 /* Model.swift */; };
+		110CC8A82771D15000AE5201 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110CC8A72771D15000AE5201 /* ApiManager.swift */; };
+		112E9A4127725C7B003EF288 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E9A4027725C7B003EF288 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		110CC89A2771BEAB00AE5201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110CC89D2771BEAB00AE5201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110CC89F2771BEAB00AE5201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110CC8A52771CC4300AE5201 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		110CC8A72771D15000AE5201 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		112E9A4027725C7B003EF288 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				110CC89A2771BEAB00AE5201 /* Assets.xcassets */,
 				110CC89C2771BEAB00AE5201 /* LaunchScreen.storyboard */,
 				110CC89F2771BEAB00AE5201 /* Info.plist */,
+				110CC8A52771CC4300AE5201 /* Model.swift */,
+				110CC8A72771D15000AE5201 /* ApiManager.swift */,
+				112E9A4027725C7B003EF288 /* MyCollectionViewCell.swift */,
 			);
 			path = "Weather Application";
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			files = (
 				110CC8962771BE9A00AE5201 /* ViewController.swift in Sources */,
 				110CC8922771BE9A00AE5201 /* AppDelegate.swift in Sources */,
+				112E9A4127725C7B003EF288 /* MyCollectionViewCell.swift in Sources */,
+				110CC8A82771D15000AE5201 /* ApiManager.swift in Sources */,
 				110CC8942771BE9A00AE5201 /* SceneDelegate.swift in Sources */,
+				110CC8A62771CC4300AE5201 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
