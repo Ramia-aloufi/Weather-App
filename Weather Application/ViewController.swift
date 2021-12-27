@@ -76,7 +76,6 @@ class ViewController: UIViewController {
             let url = URL(string: "http://openweathermap.org/img/w/\(data.hourly[0].weather[0].icon).png")
             let data1 = try? Data(contentsOf: url!)
 
-                
             DispatchQueue.main.async {
                 for i in data.hourly{
                     self.hour.append(i)
@@ -86,7 +85,7 @@ class ViewController: UIViewController {
                 self.weatherTemp.text = "\(Int(data.current.temp))º"
                 self.weatherMinTemp.text = "\(Int(data.current.humidity))"
                 self.WheatherMaxTemp.text = "\(Int(data.current.pressure))"
-                self.weatherDesription.text = "\(data.hourly[0].weather[0].weatherDescription)"
+                self.weatherDesription.text = "\(data.hourly[0].weather[0].description)"
                 self.weatherImg.image = UIImage(data: data1!)
                 self.collectionview.reloadData()
 
